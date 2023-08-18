@@ -1,0 +1,192 @@
+
+
+.Modify , .register-form {
+
+justify-content: center;
+color: antiquewhite;
+text-align: left;
+min-height: 25vh;
+min-width: 200vh; 
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: left;
+font-size: larger;
+position: relative;
+
+background-color:#3399ff;
+
+}
+
+label {
+
+
+text-align: left;
+padding: 0.5rem;
+
+}
+
+input {
+
+margin: 0.5 rem 0;
+padding:1.5rem;
+border: none;
+border-radius: 10px;
+font-size: large; 
+
+}
+
+
+button{
+  
+margin: 0.5 rem 0;
+border: none;
+background-color: rgb(209, 246, 246);
+padding: 20px;
+border-radius: 10px;
+color: blue;
+font-size: medium;
+}
+
+nav{
+
+height: 80px;
+width: 100%;
+background-color: aliceblue;
+position: fixed;
+top: 0px;
+}
+
+label.logo{
+
+  font-size: 35px;
+  font-weight: bold;
+  color:blue;
+  padding: 0 100px;
+  line-height: 80px;
+}
+
+nav ul{
+
+float: right;
+margin-right: 40px;
+
+
+}
+
+nav li{
+
+display: inline-block;
+margin: 0 8px;
+line-height: 80px;
+
+}
+
+nav a{
+
+color: #3399ff;
+font-size: 27px;
+text-transform: uppercase;
+text-decoration: none;
+border: 1px solid transparent;
+padding: 7px 10px;
+
+}
+
+.cal{
+
+position: absolute;
+right: 5px;
+top:100px;
+width: 400px;
+height: 350px;
+border: 2px solid rgb(209, 246, 246);
+align-items: center;
+border-radius: 20px;
+background-color: rgb(183, 212, 248);
+color:rgb(31, 150, 235);
+
+
+}
+
+.img{
+
+position: absolute;
+left:20px;
+top: 100px;
+
+}
+
+.home{
+
+  position: absolute;
+  right:-10px;
+  top: 80px;
+
+}
+
+.main-header{
+
+  width: 75%;
+  margin-top: -50px;
+  margin-left: -170px;
+ box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  
+
+}
+.main-header h4{
+
+  font-size: 22px;
+  color: blue;
+  font-weight: 550;
+
+}
+
+.main-header h3{
+
+  font-size: 38px;
+  width: 340px;
+  margin-top: 10px;
+  margin-bottom: 24px;
+
+}
+
+.main-header p{
+
+  margin-bottom: 60px;
+  font-size: 20px;
+
+}
+
+.main-header .btn{
+
+  background: lightskyblue;
+  border: 1px solid lightskyblue;
+  font-size: 24px;
+  color: #3399ff;
+  font-weight: 400;
+  padding: 12px 30px ;
+  border-radius:50px ;
+  transition: all.5s;
+
+}
+.main-header .btn:hover{
+
+  color:blue;
+  background: white;
+
+}
+.content{
+
+  display: none;
+}
+
+#check:checked ~ .content{
+
+  position:relative;
+  display: inline;
+
+
+}
